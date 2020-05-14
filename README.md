@@ -13,3 +13,8 @@ Move this file to `~/Downlaods/openapi-generator-cli.jar` or rename the path on 
 ## Step 3 - Generate the Client
 Now run the script `./generate-client-lib.sh` or `sh generate-client-lib.sh`.
 After then exsists an new folder on the execution dir was contains the generated rest client.
+
+Referenzes:
+- https://openapi-generator.tech/docs/installation
+- https://www.baeldung.com/spring-boot-rest-client-swagger-codegen
+- https://github.com/OpenAPITools/openapi-generator/releases
