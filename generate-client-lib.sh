@@ -5,7 +5,7 @@ java -jar ~/Downlaods/openapi-generator-cli.jar generate \
   --invoker-package de.kaesdingeling.spring.openapi.generator.example.generated.invoker \
   --group-id de.kaesdingeling.spring.openapi.generator.example.generated \
   --artifact-id GeneratedRESTApiClient \
-  --artifact-version 1.0 \
+  --artifact-version 0.0.1-SNAPSHOT \
   --library webclient \
   --generator-name java \
   -o GeneratedRESTApiClient
