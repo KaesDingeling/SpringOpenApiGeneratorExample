@@ -1,5 +1,5 @@
-java -jar ~/Downlaods/openapi-generator-cli.jar generate \
-  -i http://localhost:8080/api/v3/api-docs \
+java -jar ~/Downloads/openapi-generator-cli.jar generate \
+  -i http://localhost:8090/v3/api-docs \
   --api-package de.kaesdingeling.spring.openapi.generator.example.generated.api \
   --model-package de.kaesdingeling.spring.openapi.generator.example.generated.model \
   --invoker-package de.kaesdingeling.spring.openapi.generator.example.generated.invoker \
